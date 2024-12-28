@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="shortcut icon" href="images/logo.jpg">
+    <title>VIBE CHECK</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.jpg" alt="Store Logo">
+                <span>VIBE CHECK</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home"> <i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+                <div class="dropdown">
+                    <li><a href="">Filter <i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
+                              <div class="dropdown-content">
+                                <div class="filter">
+                                            <div>
+                                        
+                                            <label for="filter-size">Size</label>
+                                            <input type="checkbox" id="filter-sizes" name="Size" value="Size">
+                                            <label for="filter-sizes">S</label>
+                                            <input type="checkbox" id="filter-sizes" name="Size" value="Size">
+                                            <label for="filter-sizes">M</label>
+                                            <input type="checkbox" id="filter-sizes" name="Size" value="Size">
+                                            <label for="filter-sizes">L</label>
+                                            <input type="checkbox" id="filter-sizes" name="Size" value="Size">
+                                            <label for="filter-sizes">XL</label>
+                                            <input type="checkbox" id="filter-sizes" name="Size" value="Size">
+                                            <label for="filter-sizes">XXL</label>
+                                            </div>
+                                        <div>
+                                            <label for="filter-size">Types</label>
+                                            <input type="checkbox" id="filter-sizes" name="Size" value="Size">
+                                            <label for="filter-sizes">Shirt</label>
+                                            <input type="checkbox" id="filter-sizes" name="Size" value="Size">
+                                            <label for="filter-sizes">Pants</label>
+                                            <input type="checkbox" id="filter-sizes" name="Size" value="Size">
+                                            <label for="filter-sizes">Shorts</label>
+                                            <input type="checkbox" id="filter-sizes" name="Size" value="Size">
+                                            <label for="filter-sizes">T-Shirt</label>
+                                            <input type="checkbox" id="filter-sizes" name="Size" value="Size">
+                                            <label for="filter-sizes">Shoes</label>
+                                        </div>
+                            
+                                        <div class="filter-price">
+                                            <h2>Price Range</h2>
+                                            <div class="price-input">
+                                              <div class="field">
+                                                <span>Min </span>
+                                                <span class="min-value">2500</span>
+                                              </div>
+                                              <div class="separator">-</div>
+                                              <div class="field">
+                                                <span>Max </span>
+                                                <span class="max-value">7500</span>
+                                              </div>
+                                            </div>
+                                            <div class="slider">
+                                              <div class="progress"></div>
+                                            </div>
+                                            <div class="range-input">
+                                              <input type="range" class="range-min" min="0" max="10000" value="2500" step="100">
+                                              <input type="range" class="range-max" min="0" max="10000" value="7500" step="100">
+                                            </div>
+                                          </div>
+                                
+                                
+                                       
+                                        <div>
+                                            <H4>Sort <i class="fa fa-arrow-up" aria-hidden="true"></i><i class="fa fa-arrow-down" aria-hidden="true"></i></H4>
+                                            <label for="filter-sort">Size By</label>
+                                            <input type="radio" id="filter-sort" name="Size" value="Size">
+                                            <label for="filter-sort">New Arrivals</label>
+                                            <input type="radio" id="filter-sort" name="Size" value="Size">
+                                            <label for="filter-sort">Price (low to High)</label>
+                                            <input type="radio" id="filter-sort" name="Size" value="Size">
+                                            <label for="filter-sort">Price (High to Low)</label>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            <li><a href="about.html"> <i class="fa-regular fa-circle-question"></i> About</a></li>
+                            <li><a href="#"> <i class="fa-regular fa-envelope"></i> Support</a></li>
+            </ul>
+            
+            <div class="nav-buttons">
+                <input type="text" placeholder="Search">
+                
+                <a href="cart.html" class="add-to-cart"><i class="fa-solid fa-bag-shopping"></i></a>
+                <a href=""> <i class="fa fa-heart" aria-hidden="true"></i> </a>
+                <a href="login.html"><button>Login</button></a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Main content here -->
+
+        <section class="image-slider">
+            <div class="slide active">
+                <img src="images/image1.jpg" alt="Image 1">
+            </div>
+            <div class="slide">
+                <img src="images/image2.jpg" alt="Image 2">
+            </div>
+            <div class="slide">
+                <img src="images/image3.jpg" alt="Image 3">
+            </div> 
+
+            <div class="overlay-text">
+                <h1>VIBE CHECK</h1>
+                <h4>Your vibe, your style</h4>
+                <p>Vibe Check isn't just a clothing brand; it's a lifestyle. We're all 
+                    about capturing that effortless cool and turning it into wearable 
+                    art. Our designs are a fusion of urban edge and laid-back vibes, 
+                    perfect for those who dare to be different. Whether you're chasing 
+                    adventures or simply living your best life, Vibe Check has got you covered.</p>
+              </div>
+            
+        </section>
+        
+
+
+        <div class="product-head">
+        <h1>TOP TRENDS</h1></div>
+        <div class="Product" id="product-list">
+            <div class="product-container fade-in-image" id="Product123">
+                <img src="images/pro-img-1.jpg" alt="Product 1" loading="lazy">
+                <h1>Product Name</h1>
+                <p>Product Description</p>
+                    <div class="price">₹  999
+                        <div> 
+                        <a href=""> <i class="fa fa-heart" aria-hidden="true"></i> </a>
+                        <button onclick="addToCart(1, 'Product 1', 'Short description of product 1', 999, 'images/product1.jpg')"><i class="fa-solid fa-bag-shopping"></i></button>
+                        </div>
+                    </div>
+            </div>
+            <div class="product-container fade-in-image">
+                <img src="images/pro-img-1.jpg" alt="Product 1" loading="lazy">
+                <h1>Product Name</h1>
+                <p>Product Description</p>
+                    <div class="price">₹ 999
+                    <button onclick="addToCart(2, 'Product 2', 'Short description of product 1', 999, 'images/product1.jpg')"><i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+            </div>
+            <div class="product-container fade-in-image">
+                <img src="images/pro-img-1.jpg" alt="Product 1" loading="lazy">
+                <h1>Product Name</h1>
+                <p>Product Description</p>
+                    <div class="price">₹ 999
+                    <button onclick="addToCart(3, 'Product 3', 'Short description of product 1', 999, 'images/product1.jpg')"><i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+            </div>
+            <div class="product-container fade-in-image">
+                <img src="images/pro-img-1.jpg" alt="Product 1" loading="lazy">
+                <h1>Product Name</h1>
+                <p>Product Description</p>
+                    <div class="price">₹ 999
+                    <button onclick="addToCart(4, 'Product 4', 'Short description of product 1', 999, 'images/product1.jpg')"><i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+            </div>
+            <div class="product-container fade-in-image">
+                <img src="images/pro-img-1.jpg" alt="Product 1" loading="lazy">
+                <h1>Product Name</h1>
+                <p>Product Description</p>
+                    <div class="price">₹ 999
+                    <button onclick="addToCart(5, 'Product 5', 'Short description of product 1', 999, 'images/product1.jpg')"><i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+            </div>
+            <div class="product-container fade-in-image">
+                <img src="images/pro-img-1.jpg" alt="Product 1" loading="lazy">
+                <h1>Product Name</h1>
+                <p>Product Description</p>
+                    <div class="price">₹ 999
+                    <button onclick="addToCart(6, 'Product 6', 'Short description of product 1', 999, 'images/product1.jpg')"><i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+            </div>
+            <div class="product-container fade-in-image">
+                <img src="images/pro-img-1.jpg" alt="Product 1" loading="lazy">
+                <h1>Product Name</h1>
+                <p>Product Description</p>
+                    <div class="price">₹ 999
+                    <button onclick="addToCart(7, 'Product 7', 'Short description of product 1', 999, 'images/product1.jpg')"><i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+            </div>        
+            <div class="product-container fade-in-image">
+                <img src="images/pro-img-1.jpg" alt="Product 1" loading="lazy">
+                <h1>Product Name</h1>
+                <p>Product Description</p>
+                    <div class="price">₹ 999
+                    <button onclick="addToCart(8, 'Product 8', 'Short description of product 1', 999, 'images/product1.jpg')"><i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+            </div>
+            <div class="product-container fade-in-image" id="Product123">
+                <img src="images/pro-img-1.jpg" alt="Product 1" loading="lazy">
+                <h1>Product Name</h1>
+                <p>Product Description</p>
+                    <div class="price">₹  999
+                    <button onclick="addToCart(1, 'Product 1', 'Short description of product 1', 999, 'images/product1.jpg')"><i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+            </div>
+            <div class="product-container fade-in-image">
+                <img src="images/pro-img-1.jpg" alt="Product 1" loading="lazy">
+                <h1>Product Name</h1>
+                <p>Product Description</p>
+                    <div class="price">₹ 999
+                    <button onclick="addToCart(2, 'Product 2', 'Short description of product 1', 999, 'images/product1.jpg')"><i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+            </div>
+            <div class="product-container fade-in-image">
+                <img src="images/pro-img-1.jpg" alt="Product 1" loading="lazy">
+                <h1>Product Name</h1>
+                <p>Product Description</p>
+                    <div class="price">₹ 999
+                    <button onclick="addToCart(3, 'Product 3', 'Short description of product 1', 999, 'images/product1.jpg')"><i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+            </div>
+            <div class="product-container fade-in-image">
+                <img src="images/pro-img-1.jpg" alt="Product 1" loading="lazy">
+                <h1>Product Name</h1>
+                <p>Product Description</p>
+                    <div class="price">₹ 999
+                    <button onclick="addToCart(4, 'Product 4', 'Short description of product 1', 999, 'images/product1.jpg')"><i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+            </div>
+            <div class="product-container fade-in-image">
+                <img src="images/pro-img-1.jpg" alt="Product 1" loading="lazy">
+                <h1>Product Name</h1>
+                <p>Product Description</p>
+                    <div class="price">₹ 999
+                    <button onclick="addToCart(5, 'Product 5', 'Short description of product 1', 999, 'images/product1.jpg')"><i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+            </div>
+            <div class="product-container fade-in-image">
+                <img src="images/pro-img-1.jpg" alt="Product 1" loading="lazy">
+                <h1>Product Name</h1>
+                <p>Product Description</p>
+                    <div class="price">₹ 999
+                    <button onclick="addToCart(6, 'Product 6', 'Short description of product 1', 999, 'images/product1.jpg')"><i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+            </div>
+            <div class="product-container fade-in-image">
+                <img src="images/pro-img-1.jpg" alt="Product 1" loading="lazy">
+                <h1>Product Name</h1>
+                <p>Product Description</p>
+                    <div class="price">₹ 999
+                    <button onclick="addToCart(7, 'Product 7', 'Short description of product 1', 999, 'images/product1.jpg')"><i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+            </div>        
+            <div class="product-container fade-in-image">
+                <img src="images/pro-img-1.jpg" alt="Product 1" loading="lazy">
+                <h1>Product Name</h1>
+                <p>Product Description</p>
+                    <div class="price">₹ 999
+                    <button onclick="addToCart(8, 'Product 8', 'Short description of product 1', 999, 'images/product1.jpg')"><i class="fa-solid fa-bag-shopping"></i></button>
+                    </div>
+            </div>
+        </div>
+    </div>
+            
+
+
+    </main>
+
+    <script src="script.js"></script>
+
+    <footer>
+        <!-- Footer content here -->
+        <h4>VIBE CHECK </h4>
+        <p>ALL COPYRIGHT RECIVED <i class="fa fa-copyright" aria-hidden="true"></i></p>
+
+        
+    </footer>
+</body>
+</html>
